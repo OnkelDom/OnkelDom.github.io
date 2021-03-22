@@ -9,7 +9,7 @@ I run the most applications as docker container with an systemd unit as service.
 ## Ansible Roles
 
 | Role | Description | Includes |
----------------------------------
+|------|-------------|----------|
 | [wsl2-setup](https://gist.github.com/OnkelDom/1e7039c3ff6c5aa0578d1a84fdbb26bb) | client setup | windows 10, wsl2, ubuntu, windows terminal |
 | [ansible-role-basic](https://github.com/OnkelDom/ansible-role-basic) | server setup | packages, motd, hosts, bashrc, users, sysctl, systemd-timesyncd, systemd-resolvd |
 | [ansible-role-netplan](https://github.com/OnkelDom/ansible-role-netplan) |  |  |
